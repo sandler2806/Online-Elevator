@@ -29,12 +29,12 @@ The delay is calculated by the **number of elevator users times elevator floorTi
  **Online Algorithm:**
 If there is an idle elevator on the same floor it will take care of it, otherwise we will assign the call for each elevator in building while choosing the optimal location for it among it’s stops array, and calculate the delay caused by choosing this elevator to handle the call.  
 The delay is calculated by adding two parameters 
-1)the time it takes for the elevator to complete the call  
-2)the delay caused from stopping ,to the current off and on board calls of the elevator 
+1. the time it takes for the elevator to complete the call  
+2. the delay caused from stopping ,to the current off and on board calls of the elevator 
  
 After calculating this delay for every elevator in the building, we pick the elevator that handle the call with the lowest possible delay time. 
  
-This method proved to be quite useful as the algorithm managed to complete complicated cases such as 9,7,8 in the lowest time on class(example: 44.1 secs average per call in case 9) 
+**This method proved to be quite useful as the algorithm managed to complete complicated cases such as 9,7,8 in the lowest time on class(example: 44.1 secs average per call in case 9)** 
  
  
  **Testing**
