@@ -44,7 +44,8 @@ After calculating this delay for every elevator in the building, we pick the ele
 -	Don’t let calls to be assigned to an elevator with error 
 -	Check that new calls are inserted at the right location on a given elevator 
 -	Make sure that Destination floor is always inserted after it’s source floor 
--	Check that after the assignment the elevator will execute the command • 	Check that calls to the same floor are ignored 
+-	Check that after the assignment the elevator will execute the command 
+-	Check that calls to the same floor are ignored 
  
  
 **Best results for the 10 elementary cases:** 
